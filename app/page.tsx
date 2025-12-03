@@ -13,7 +13,7 @@ import weatherapp from '../public/weatherapp.jpg';
 import explore from '../public/explore.jpg';
 import evolution from '../public/evolution.jpg';
 import resume from '../public/resume.pdf';
-import { Card } from "@/components/ui/card";
+import { Card } from "../components/ui/card";
 export default function Home() {
   return (
     <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white transition-color-duration-300">
