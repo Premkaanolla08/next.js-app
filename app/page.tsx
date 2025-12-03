@@ -12,7 +12,7 @@ import { CardContent } from "@/components/ui/card";
 import weatherapp from '../public/weatherapp.jpg';
 import explore from '../public/explore.jpg';
 import evolution from '../public/evolution.jpg';
-import resume from "../public/resume.pdf";
+import resume from '../public/resume.pdf';
 import { Card } from "@/components/ui/card";
 export default function Home() {
   return (
