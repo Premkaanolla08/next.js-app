@@ -12,7 +12,6 @@ import { CardContent } from "@/components/ui/card";
 import weatherapp from '../public/weatherapp.jpg';
 import explore from '../public/explore.jpg';
 import evolution from '../public/evolution.jpg';
-import resume from '../public/resume.pdf';
 import { Card } from "../components/ui/card";
 export default function Home() {
   return (
@@ -54,11 +53,10 @@ export default function Home() {
           animate={{opacity: 1, x: 0}}
           transition={{duration: 0.8}}
           className="flex items-center gap-3">
-           <a href="/resume.pdf" download="resume.pdf">
+           
   <Button className="rounded-full bg-gradient-to-r from-rose-400 to-indigo-600 text-white transition-transform hover:scale-105">
     Resume
   </Button>
-</a>
 
             <Link href="https://github.com/Premkaanolla08" className="text-gray-600 dark:text-gary-400 hover:text-black dark:hover:text-white transition-colors">
               <FaGithub className="w-6 h-6"/>
